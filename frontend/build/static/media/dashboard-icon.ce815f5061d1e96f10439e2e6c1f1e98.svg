@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect x="10" y="10" width="80" height="80" rx="8" fill="#FFFFFF" stroke="#4CAF50" stroke-width="3"/>
+  
+  <!-- Header bar -->
+  <rect x="10" y="10" width="80" height="15" rx="8" fill="#4CAF50"/>
+  
+  <!-- Donut chart -->
+  <circle cx="35" cy="40" r="15" fill="#E8F5E9" stroke="#4CAF50" stroke-width="2"/>
+  <path d="M35,25 A15,15 0 0,1 50,40 L35,40 Z" fill="#81C784"/>
+  <path d="M35,40 L35,25 A15,15 0 0,1 35,55 Z" fill="#4CAF50"/>
+  <circle cx="35" cy="40" r="5" fill="#FFFFFF"/>
+  
+  <!-- Bar chart -->
+  <rect x="60" y="30" width="5" height="20" fill="#4CAF50"/>
+  <rect x="70" y="35" width="5" height="15" fill="#81C784"/>
+  <rect x="80" y="25" width="5" height="25" fill="#4CAF50"/>
+  
+  <!-- Line chart -->
+  <polyline points="20,70 30,65 40,75 50,60 60,80 70,65 80,70" 
+            fill="none" stroke="#4CAF50" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Base line -->
+  <line x1="20" y1="80" x2="80" y2="80" stroke="#E0E0E0" stroke-width="1"/>
+</svg>

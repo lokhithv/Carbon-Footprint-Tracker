@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="sky-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#87CEEB" />
+      <stop offset="100%" stop-color="#E0F7FA" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#sky-gradient)" />
+  
+  <!-- Ground -->
+  <rect x="0" y="200" width="400" height="100" fill="#8B4513" />
+  
+  <!-- Vehicle -->
+  <g transform="translate(100, 180) scale(2)">
+    <!-- Vehicle body -->
+    <rect x="10" y="10" width="80" height="30" rx="5" fill="#333" />
+    <!-- Wheels -->
+    <circle cx="25" cy="45" r="10" fill="#111" />
+    <circle cx="75" cy="45" r="10" fill="#111" />
+    <!-- Windows -->
+    <rect x="20" y="15" width="15" height="10" fill="#87CEFA" />
+    <rect x="45" y="15" width="15" height="10" fill="#87CEFA" />
+    <rect x="70" y="15" width="10" height="10" fill="#87CEFA" />
+    <!-- Roof tent -->
+    <polygon points="10,10 90,10 80,-10 20,-10" fill="#555" />
+  </g>
+</svg>

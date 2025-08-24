@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <!-- Dashboard Background -->
+  <rect x="0" y="0" width="800" height="500" rx="10" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="2"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="60" rx="10" fill="#4CAF50" />
+  <text x="30" y="38" font-family="Arial" font-size="20" font-weight="bold" fill="#FFFFFF">Carbon Footprint Dashboard</text>
+  
+  <!-- Sidebar -->
+  <rect x="0" y="60" width="200" height="440" fill="#F5F5F5" />
+  
+  <!-- Sidebar Menu Items -->
+  <rect x="20" y="100" width="160" height="40" rx="5" fill="#E8F5E9" />
+  <text x="50" y="125" font-family="Arial" font-size="14" fill="#4CAF50">Dashboard</text>
+  
+  <rect x="20" y="150" width="160" height="40" rx="5" fill="transparent" />
+  <text x="50" y="175" font-family="Arial" font-size="14" fill="#757575">Add Entry</text>
+  
+  <rect x="20" y="200" width="160" height="40" rx="5" fill="transparent" />
+  <text x="50" y="225" font-family="Arial" font-size="14" fill="#757575">Insights</text>
+  
+  <rect x="20" y="250" width="160" height="40" rx="5" fill="transparent" />
+  <text x="50" y="275" font-family="Arial" font-size="14" fill="#757575">Recommendations</text>
+  
+  <rect x="20" y="300" width="160" height="40" rx="5" fill="transparent" />
+  <text x="50" y="325" font-family="Arial" font-size="14" fill="#757575">Profile</text>
+  
+  <!-- Main Content Area -->
+  <!-- Summary Cards -->
+  <rect x="220" y="80" width="170" height="120" rx="10" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" />
+  <text x="240" y="110" font-family="Arial" font-size="14" font-weight="bold" fill="#333333">Total Carbon Footprint</text>
+  <text x="240" y="150" font-family="Arial" font-size="24" font-weight="bold" fill="#4CAF50">1,245 kg</text>
+  <text x="240" y="170" font-family="Arial" font-size="12" fill="#757575">CO₂ equivalent</text>
+  
+  <rect x="410" y="80" width="170" height="120" rx="10" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" />
+  <text x="430" y="110" font-family="Arial" font-size="14" font-weight="bold" fill="#333333">Monthly Average</text>
+  <text x="430" y="150" font-family="Arial" font-size="24" font-weight="bold" fill="#4CAF50">415 kg</text>
+  <text x="430" y="170" font-family="Arial" font-size="12" fill="#757575">CO₂ equivalent</text>
+  
+  <rect x="600" y="80" width="170" height="120" rx="10" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" />
+  <text x="620" y="110" font-family="Arial" font-size="14" font-weight="bold" fill="#333333">Reduction Target</text>
+  <text x="620" y="150" font-family="Arial" font-size="24" font-weight="bold" fill="#FF5722">-15%</text>
+  <text x="620" y="170" font-family="Arial" font-size="12" fill="#757575">by end of year</text>
+  
+  <!-- Charts -->
+  <!-- Bar Chart -->
+  <rect x="220" y="220" width="270" height="250" rx="10" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" />
+  <text x="240" y="250" font-family="Arial" font-size="16" font-weight="bold" fill="#333333">Emissions by Category</text>
+  
+  <!-- Bar Chart Axes -->
+  <line x1="240" y1="420" x2="470" y2="420" stroke="#E0E0E0" stroke-width="1" />
+  <line x1="240" y1="420" x2="240" y2="270" stroke="#E0E0E0" stroke-width="1" />
+  
+  <!-- Bar Chart Bars -->
+  <rect x="270" y="320" width="30" height="100" fill="#4CAF50" />
+  <rect x="320" y="350" width="30" height="70" fill="#81C784" />
+  <rect x="370" y="300" width="30" height="120" fill="#4CAF50" />
+  <rect x="420" y="370" width="30" height="50" fill="#81C784" />
+  
+  <!-- Bar Chart Labels -->
+  <text x="270" y="435" font-family="Arial" font-size="10" fill="#757575" text-anchor="middle">Travel</text>
+  <text x="320" y="435" font-family="Arial" font-size="10" fill="#757575" text-anchor="middle">Food</text>
+  <text x="370" y="435" font-family="Arial" font-size="10" fill="#757575" text-anchor="middle">Home</text>
+  <text x="420" y="435" font-family="Arial" font-size="10" fill="#757575" text-anchor="middle">Other</text>
+  
+  <!-- Donut Chart -->
+  <rect x="510" y="220" width="260" height="250" rx="10" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" />
+  <text x="530" y="250" font-family="Arial" font-size="16" font-weight="bold" fill="#333333">Emissions Breakdown</text>
+  
+  <!-- Donut Chart Circle -->
+  <circle cx="640" cy="340" r="80" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" />
+  
+  <!-- Donut Chart Segments -->
+  <path d="M640,340 L640,260 A80,80 0 0,1 713,370 Z" fill="#4CAF50" />
+  <path d="M640,340 L713,370 A80,80 0 0,1 640,420 Z" fill="#81C784" />
+  <path d="M640,340 L640,420 A80,80 0 0,1 567,370 Z" fill="#C8E6C9" />
+  <path d="M640,340 L567,370 A80,80 0 0,1 640,260 Z" fill="#E8F5E9" />
+  
+  <!-- Donut Chart Center -->
+  <circle cx="640" cy="340" r="40" fill="#FFFFFF" />
+  <text x="640" y="345" font-family="Arial" font-size="14" font-weight="bold" fill="#4CAF50" text-anchor="middle">1,245 kg</text>
+  
+  <!-- Donut Chart Legend -->
+  <rect x="530" y="430" width="10" height="10" fill="#4CAF50" />
+  <text x="545" y="440" font-family="Arial" font-size="10" fill="#757575">Travel (40%)</text>
+  
+  <rect x="600" y="430" width="10" height="10" fill="#81C784" />
+  <text x="615" y="440" font-family="Arial" font-size="10" fill="#757575">Food (25%)</text>
+  
+  <rect x="670" y="430" width="10" height="10" fill="#C8E6C9" />
+  <text x="685" y="440" font-family="Arial" font-size="10" fill="#757575">Home (30%)</text>
+  
+  <rect x="740" y="430" width="10" height="10" fill="#E8F5E9" />
+  <text x="755" y="440" font-family="Arial" font-size="10" fill="#757575">Other (5%)</text>
+</svg>

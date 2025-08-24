@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1772552e.css",
+    "main.js": "/static/js/main.0fec2a23.js",
+    "static/media/dashboard-preview.svg": "/static/media/dashboard-preview.14796df9c16e9140504f1f7793afb309.svg",
+    "static/media/hero-earth.svg": "/static/media/hero-earth.a33d38b936304e83303baa81c84a74f2.svg",
+    "static/media/contact-aerial.svg": "/static/media/contact-aerial.7a62b23200670dbb52f5afad864a0358.svg",
+    "static/media/tips-icon.svg": "/static/media/tips-icon.ea71ab7e3fad149aa101b0369e16359a.svg",
+    "static/media/testimonial-vehicle.svg": "/static/media/testimonial-vehicle.9566c8475357ec7b0a910aca25b80142.svg",
+    "static/media/dashboard-icon.svg": "/static/media/dashboard-icon.ce815f5061d1e96f10439e2e6c1f1e98.svg",
+    "index.html": "/index.html",
+    "static/media/car-icon.svg": "/static/media/car-icon.5aeed30df516c1d7822fca8b5fe9e3e8.svg",
+    "main.1772552e.css.map": "/static/css/main.1772552e.css.map",
+    "main.0fec2a23.js.map": "/static/js/main.0fec2a23.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1772552e.css",
+    "static/js/main.0fec2a23.js"
+  ]
+}

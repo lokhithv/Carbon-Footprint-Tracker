@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Light bulb shape -->
+  <path d="M50,10 C35,10 25,20 25,35 C25,45 30,50 35,55 L35,70 L65,70 L65,55 C70,50 75,45 75,35 C75,20 65,10 50,10 Z" 
+        fill="#FFEB3B" stroke="#4CAF50" stroke-width="2"/>
+  
+  <!-- Light bulb base -->
+  <rect x="35" y="70" width="30" height="5" fill="#E0E0E0" stroke="#4CAF50" stroke-width="1"/>
+  <rect x="38" y="75" width="24" height="5" fill="#E0E0E0" stroke="#4CAF50" stroke-width="1"/>
+  <rect x="40" y="80" width="20" height="5" fill="#E0E0E0" stroke="#4CAF50" stroke-width="1"/>
+  
+  <!-- Light rays -->
+  <line x1="50" y1="5" x2="50" y2="0" stroke="#4CAF50" stroke-width="2"/>
+  <line x1="35" y1="15" x2="30" y2="10" stroke="#4CAF50" stroke-width="2"/>
+  <line x1="25" y1="30" x2="20" y2="25" stroke="#4CAF50" stroke-width="2"/>
+  <line x1="65" y1="15" x2="70" y2="10" stroke="#4CAF50" stroke-width="2"/>
+  <line x1="75" y1="30" x2="80" y2="25" stroke="#4CAF50" stroke-width="2"/>
+  
+  <!-- Leaf symbol inside -->
+  <path d="M50,30 C45,25 40,25 40,30 C40,40 50,45 50,45 C50,45 60,40 60,30 C60,25 55,25 50,30 Z" 
+        fill="#4CAF50"/>
+</svg>

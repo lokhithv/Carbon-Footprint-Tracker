@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect x="10" y="10" width="80" height="80" rx="8" fill="#FFFFFF" stroke="#4CAF50" stroke-width="3"/>
+  <rect x="20" y="20" width="60" height="15" rx="2" fill="#E8F5E9"/>
+  
+  <!-- Calculator buttons -->
+  <circle cx="25" cy="45" r="5" fill="#4CAF50"/>
+  <circle cx="40" cy="45" r="5" fill="#4CAF50"/>
+  <circle cx="55" cy="45" r="5" fill="#4CAF50"/>
+  <circle cx="70" cy="45" r="5" fill="#81C784"/>
+  
+  <circle cx="25" cy="60" r="5" fill="#4CAF50"/>
+  <circle cx="40" cy="60" r="5" fill="#4CAF50"/>
+  <circle cx="55" cy="60" r="5" fill="#4CAF50"/>
+  <circle cx="70" cy="60" r="5" fill="#81C784"/>
+  
+  <circle cx="25" cy="75" r="5" fill="#4CAF50"/>
+  <circle cx="40" cy="75" r="5" fill="#4CAF50"/>
+  <circle cx="55" cy="75" r="5" fill="#4CAF50"/>
+  <circle cx="70" cy="75" r="5" fill="#81C784"/>
+  
+  <!-- CO2 Symbol -->
+  <text x="30" y="30" font-family="Arial" font-size="10" font-weight="bold" fill="#4CAF50">CO₂</text>
+</svg>
