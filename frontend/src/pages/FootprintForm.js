@@ -143,12 +143,11 @@ function FootprintForm() {
         const kwh = parseFloat(details.kwh) || 0;
         const energyType = details.type;
         
-        // Updated emission factors based on EPA eGRID 2023-2024 data (kg CO2e per kWh)
         const energyFactors = {
-          electricity: 0.394, // Based on EPA eGRID 2023-2024 national average (0.394 kg CO2/kWh)
-          natural_gas: 0.202, // Natural gas combustion (EPA 2024 data: 116.65 lb/MMBtu converted)
-          heating_oil: 0.268, // Fuel oil combustion (EPA 2024 data: 163.45 lb/MMBtu converted)
-          propane: 0.227,    // Propane combustion (EPA 2024 data: 138.63 lb/MMBtu converted)
+          electricity: 0.394, 
+          natural_gas: 0.202, 
+          heating_oil: 0.268, 
+          propane: 0.227,  
         };
         
         emission = kwh * (energyFactors[energyType] || 0);
@@ -158,14 +157,13 @@ function FootprintForm() {
         const quantity = parseFloat(details.quantity) || 0;
         const foodType = details.type;
         
-        // Updated emission factors based on latest lifecycle assessment studies 2023 (kg CO2e per kg)
         const foodFactors = {
-          meat: 27.0,       // Beef (60kg), lamb (24kg), pork (7kg), chicken (6kg) weighted average
-          dairy: 3.2,       // Milk (1.9kg), cheese (13.5kg), yogurt (2.2kg) weighted average
-          vegetable: 0.5,   // Average vegetables (updated from Our World in Data)
-          fruit: 0.7,       // Average fruits (updated from Our World in Data)
-          grain: 1.4,       // Wheat (1.4kg), rice (4.0kg), corn (1.0kg) weighted average
-          processed: 3.1,   // Processed food products (updated from lifecycle studies)
+          meat: 27.0,       
+          dairy: 3.2,      
+          vegetable: 0.5,   
+          fruit: 0.7,       
+          grain: 1.4,      
+          processed: 3.1,   
         };
         
         emission = quantity * (foodFactors[foodType] || 0);
@@ -175,14 +173,13 @@ function FootprintForm() {
         const weight = parseFloat(details.weight) || 0;
         const itemType = details.itemType;
         
-        // Updated emission factors based on latest lifecycle assessment data 2023 (kg CO2e per kg of item)
         const shoppingFactors = {
-          electronics: 18.7,  // Electronic devices per kg (updated lifecycle assessment 2023)
-          clothing: 12.5,    // Clothing items per kg (updated lifecycle assessment 2023)
-          furniture: 3.2,    // Furniture per kg (updated lifecycle assessment 2023)
-          books: 1.5,        // Books and paper products per kg (updated lifecycle assessment 2023)
-          groceries: 2.1,    // Grocery items per kg (updated lifecycle assessment 2023)
-          other: 3.5,        // Other consumer goods per kg (updated lifecycle assessment 2023)
+          electronics: 18.7,  
+          clothing: 12.5,    
+          furniture: 3.2,    
+          books: 1.5,        
+          groceries: 2.1,   
+          other: 3.5,
         };
         
         emission = weight * (shoppingFactors[itemType] || 0);
@@ -192,14 +189,13 @@ function FootprintForm() {
         const wasteWeight = parseFloat(details.weight) || 0;
         const wasteType = details.wasteType;
         
-        // Updated emission factors based on EPA WARM model 2023-2024 (kg CO2e per kg)
         const wasteFactors = {
-          plastic: 3.1,      // Plastic waste to landfill (updated EPA WARM 2023-2024)
-          paper: 1.1,       // Paper waste to landfill (updated EPA WARM 2023-2024)
-          organic: 0.85,    // Food waste to landfill (methane emissions, updated EPA WARM 2023-2024)
-          electronic: 9.2,   // E-waste disposal (updated EPA WARM 2023-2024)
-          hazardous: 4.5,   // Hazardous waste treatment (updated EPA WARM 2023-2024)
-          other: 2.0,       // Mixed municipal waste (updated EPA WARM 2023-2024)
+          plastic: 3.1,      
+          paper: 1.1,      
+          organic: 0.85,   
+          electronic: 9.2,  
+          hazardous: 4.5,  
+          other: 2.0,
         };
         
         emission = wasteWeight * (wasteFactors[wasteType] || 0);
