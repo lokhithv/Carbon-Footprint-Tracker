@@ -8,6 +8,7 @@
     "server": "nodemon backend/server.js",
     "client": "npm start --prefix frontend",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "react-scripts build",
     "install-backend": "npm install",
     "install-frontend": "npm install --prefix frontend",
     "install-all": "npm run install-backend && npm run install-frontend"
